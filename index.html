@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Kicks - Sneaker Store</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #121212;
+            color: white;
+        }
+        header {
+            background: #010000;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+        }
+        header img {
+            height: 50px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+            padding: 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .container {
+            text-align: center;
+            padding: 40px 20px;
+        }
+        .product-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .product-card {
+            background: #1e1e1e;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            width: 300px;
+            border: 1px solid #ff3d00;
+        }
+        .product-card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .buy-btn {
+            display: block;
+            padding: 10px 20px;
+            background: #ff3d00;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .about, .contact {
+            text-align: center;
+            padding: 40px;
+            background: #1e1e1e;
+        }
+        .about h2, .contact h2 {
+            font-size: 28px;
+            margin-bottom: 15px;
+            color: #ff3d00;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://urbankicksllc.com/cdn/shop/files/F9179C3A-6F7B-471D-8D95-8D6DD9DBD800.png?v=1731681380&width=210" alt="Urban Kicks Logo">
+        URBAN KICKS
+        <img src="https://urbankicksllc.com/cdn/shop/files/F9179C3A-6F7B-471D-8D95-8D6DD9DBD800.png?v=1731681380&width=210" alt="Urban Kicks Logo">
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#sneaker-collection">Collection</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="about" id="about">
+        <h2>About Us</h2>
+        <p>Step into style with our latest sneaker collection. Designed for comfort and performance.</p>
+    </div>
+    <div class="container" id="sneaker-collection">
+        <h2>🔥 Our Sneaker Collection 🔥</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="https://imgs.search.brave.com/SezE-z5aczBba9eVt1lBpfvlf6uUPgByapL0p9kNxcA/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/dGhld2lyZWN1dHRl/ci5jb20vd3AtY29u/dGVudC9tZWRpYS8y/MDI0LzExL3J1bm5p/bmdzaG9lcy0yMDQ4/cHgtMDk1MjguanBn/P2F1dG89d2VicCZx/dWFsaXR5PTc1Jndp/ZHRoPTEwMjQ" alt="Sneaker 1">
+                <h3>Street Runner X</h3>
+                <p>Ultimate comfort with a sleek urban design.</p>
+                <p>💰 Price: ₹6,999</p>
+                <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+            <div class="product-card">
+                <img src="https://imgs.search.brave.com/VG4ebcc_bD6qDuK-ntZh71QCdfW5ZLAx_AzsN8QVK30/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9kcmVh/bWFyZGkuY29tL2Nk/bi9zaG9wL2ZpbGVz/LzJfM185YWRhYjk4/Ni0zODllLTQ2NTMt/YTk5ZS1jY2JjMmFh/NzRlMDYud2VicD92/PTE3MzQwODgyNTYm/d2lkdGg9MTUwMA" alt="Sneaker 2">
+                <h3>AirFlex Pro</h3>
+                <p>High-performance sneakers for all-day wear.</p>
+                <p>💰 Price: ₹8,499</p>
+                <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+            <div class="product-card">
+                <img src="https://imgs.search.brave.com/vO7cHzQBr8fYpbMkIhIZ9GGhwpwkv82rKyGRRCC-fRo/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NjFZNlRaNzdYQUwu/anBn" alt="Sneaker 3">
+                <h3>Velocity Max</h3>
+                <p>Designed for speed and agility on the streets.</p>
+                <p>💰 Price: ₹7,299</p>
+                <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+        </div>
+    </div>
+    <div class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: support@urbankicks.com</p>
+        <p>Phone: +91 9876543210</p>
+    </div>
+</body>
+</html>
